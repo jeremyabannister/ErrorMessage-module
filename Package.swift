@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/jeremyabannister/XCTestToolkit",
-            from: "0.1.1"
+            "0.1.5" ..< "0.2.0"
         ),
     ],
     targets: [
